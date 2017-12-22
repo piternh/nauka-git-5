@@ -1,0 +1,33 @@
+{
+  "name": "learning-git-2",
+  "version": "1.0.0",
+  "description": "https://piternh.github.io/",
+  "main": "index.js",
+  "scripts": {
+  "test": "npm run test:html",
+  "test:html": "glob-run nu-html-checker *.html",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piternh/learning-git-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piternh/learning-git-2/issues"
+  },
+  "homepage": "https://github.com/piternh/learning-git-2#readme",
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.18.13",
+
+    "node-sass": "^4.7.2",
+    "nu-html-checker": "^0.1.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2"
+  },
+  "devDependencies": {
+    "parallelshell": "^3.0.2"
+  },
+}

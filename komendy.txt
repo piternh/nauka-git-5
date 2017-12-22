@@ -1,0 +1,7 @@
+AUTOPREFIXER :
+
+Autoprefixer --map index.html
+
+NU-HTML-CHECKER :
+
+Nu-html-checker --formatter index.html/nauka-git-4
